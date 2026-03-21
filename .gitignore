@@ -1,0 +1,37 @@
+__pycache__/ 
+*.py[cod]
+.venv/
+.env
+.env.local
+mom_test_results.md
+mom_test_script.md
+ideas.md
+architecture_notes.md
+decision.md
+SESSION_SUMMARY.md
+.coverage
+htmlcov/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.vscode/
+.idea/
+Thumbs.db
+
+# --- kuro-rules private research ---
+mom_test_results.md
+mom_test_script.md
+decision.md
+ideas.md
+architecture_notes.md
+concept/
+research/private/
+research/raw/
+research/interviews/
+research/contact-lists/
+notes-private.md
+contacts.csv
+leads.csv
+prospects.csv
+# --- end kuro-rules private research ---
