@@ -22,9 +22,9 @@ class CostEstimate:
     def __str__(self) -> str:
         return (
             f"{self.model} ({self.provider})\n"
-            f"  Input:  {self.input_tokens:,} tokens  → ${self.input_cost:.4f}\n"
-            f"  Output: {self.output_tokens:,} tokens  → ${self.output_cost:.4f}\n"
-            f"  Total:  {self.total_tokens:,} tokens  → ${self.total_cost:.4f}\n"
+            f"  Input:  {self.input_tokens:,} tokens  -> ${self.input_cost:.4f}\n"
+            f"  Output: {self.output_tokens:,} tokens  -> ${self.output_cost:.4f}\n"
+            f"  Total:  {self.total_tokens:,} tokens  -> ${self.total_cost:.4f}\n"
             f"  Avg:    ${self.cost_per_1k:.4f} / 1K tokens"
         )
 
