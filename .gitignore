@@ -18,3 +18,7 @@ usage.json
 .vscode/
 .idea/
 Thumbs.db
+
+# kuro-guard R76 (auto)
+acquisition_tracker.md
+decision-memo.md
